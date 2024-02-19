@@ -1,0 +1,288 @@
+/* General */
+.description{
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 24px;
+	font-weight: 500;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* Index */
+body, .rightcolumn{
+   background: #f1f1f1;  
+}
+
+.jumbotron{
+   font-family: 'Aguafina Script';
+   background-image:url("https://image.freepik.com/free-photo/old-wall-background_1149-1295.jpg")
+}
+
+.jumbotron, .footer, .slavicfooter, .historyfooter, .greekfooter, .egyptianfooter{
+  text-align:center;   
+}
+
+/* Footers */
+.footer, .slavicfooter, .historyfooter, .greekfooter, .egyptianfooter{
+  background: #222;
+  color: white;
+  font-style:italic;
+
+}
+
+/* Columns */
+.leftcolumn {  
+    width: 75%;
+}
+
+.rightcolumn, .leftcolumn{
+    float:left;
+}
+
+.rightcolumn {
+    width: 25%;
+    padding-left: 20px;
+}
+
+.legendsimg{
+    background-image: url(https://s3.amazonaws.com/tjn-blog-images/wp-content/uploads/2016/08/10185111/job-search-myths-810x380.jpg);
+    background-repeat:no-repeat;
+}
+
+.others{
+    width:400px;
+}
+
+.card {
+    background-color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.legendsimg, .card .footer, .slavicfooter, .historyfooter, .greekfooter, .egyptianfooter{
+  padding: 20px;  
+}
+
+.legendsimg, .footer, .slavicfooter, .historyfooter, .greekfooter, .egyptianfooter{
+    height:200px;  
+    width:100%;
+}
+
+.footer, .slavicfooter, .historyfooter, .greekfooter, .egyptianfooter, .card{
+    margin-top: 20px;
+}
+
+
+/* Egyptian */
+.egypt, .leftcolumn #egyptpicture, .rightcolumn #creation, .row > #creation{
+    background-color: #E3C334;  
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background-image:url("http://www.yourdictionary.com/image/articles/5153.EgyptMyth.jpg");
+    height:200px;
+}
+
+#egypthead > h1{
+   background:white;
+   width:30%;
+   vertical-align:center;
+   margin-right:auto;
+   margin-left:auto;
+}
+
+#egyptpicture > .leftcolumn{
+     width:400px
+}
+
+.row #egyptpicture{
+    padding-left:15px;
+}
+
+.leftcolumn #egyptpicture{   
+    float: left;
+    width:400px
+}
+
+/* Middle column */
+.rightcolumn #creation{
+    float:right;
+    width:100%;
+}
+
+.card, .cardegypt{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.cardegypt {
+    width:1100px;
+}
+
+/* Greece */
+.greek, .leftcolumn #greekpicture, .row > #greekmyth{
+    background-color:#36a7cf;
+}
+#history > h1, #greekhead{
+    text-align:center;
+}
+
+#greekhead{
+    padding: 30px;
+    background-image:url("http://www.talesbeyondbelief.com/images/names-of-greek-gods-2.jpg");
+    height:198px;
+}
+#greekhead > h1{
+   background:white;
+   width:30%;
+   vertical-align:center;
+   margin-right:auto;
+   margin-left:auto;
+}
+
+/* Left column */
+.leftcolumn #greekpicture{   
+    float: left;
+    width: 70%;
+}
+
+/* Middle column */
+.rightcolumn #greekmyth{
+    float:right;
+    width:100%;
+}
+
+.row #greekpicture{
+    padding-left:15px;
+}
+
+.cardgreek {
+    width:1100px;
+}
+
+#greekpicture > #cardadjust{
+    width:400px;
+}
+
+.card >#Odysseus{
+    width:380px
+}
+
+.card, .cardgreek{
+    background-color:white;
+    padding:20px;
+    margin-top:20px;
+}
+
+/* Slavic */
+.slavic, .row > #slavicpicture, .row > #slavicmyth{
+   background-color: #7c0a02;
+}
+#slavichead {
+    padding: 30px;
+    text-align: center;
+    background-image:url("https://mrpsmythopedia.wikispaces.com/file/view/SlavGods.jpg/509240652/800x330/SlavGods.jpg");
+}
+
+#slavichead > h1{
+   background:white;
+   width:30%;
+   vertical-align:center;
+   margin-right:auto;
+   margin-left:auto;
+}
+
+.row #slavicpicture{
+    padding-left:15px;
+}
+
+#slavicpicture > #cardadjust{
+    width:400px;
+}
+
+/* Left column */
+.leftcolumn #slavicpicture{   
+    float: left;
+    width: 20px;
+}
+
+/* Middle column */
+.rightcolumn #slavicmyth{
+    float:right;
+    width:100%;
+}
+
+/* Add a card effect for articles */
+.cardslavic {
+    width:1100px;
+}
+.card >#Rod{
+    width:380px
+}
+
+.card, .cardslavic{
+    background-color:white;
+    padding:20px;
+    margin-top:20px;
+}
+
+
+/* History */
+#historyhead{
+    background-image:url(https://jessicamdewitt.files.wordpress.com/2018/04/history-world-map.jpg);
+}
+
+#historyhead > h1{
+   background:white;
+   width:30%;
+   vertical-align:center;
+   margin-right:auto;
+   margin-left:auto;
+}
+.box #wiki{
+    float:left;
+    margin-right:20px;
+}
+.clear #wiki{
+    clear:both;
+}
+
+.historybody, .flexcontainer{
+    background-color:#DAA520	;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
